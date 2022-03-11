@@ -1,0 +1,15 @@
+sum = 0;
+n= int(input("enter a no: "))
+if (n>0):
+    a = n % 10;
+    sum += a;
+    n /= 10;
+     
+   if (sum % 3 != 0):
+    print ("no is divided by 3");
+else: 
+    print ("no is not divided by 3");
+ 
+output
+enter a no: 171
+no is divided by 3
